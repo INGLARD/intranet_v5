@@ -1,0 +1,81 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 17/08/2018 08:24
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+     /* font-size: 0.8em;
+font-style: normal;
+margin-left: 2px;*/
+}
+
+.flaticon-001-gas-station:before { content: "\f100"; }
+.flaticon-002-disability:before { content: "\f101"; }
+.flaticon-003-wc:before { content: "\f102"; }
+.flaticon-004-shopping-cart:before { content: "\f103"; }
+.flaticon-005-beer:before { content: "\f104"; }
+.flaticon-006-grocery:before { content: "\f105"; }
+.flaticon-007-atm:before { content: "\f106"; }
+.flaticon-008-sandwich:before { content: "\f107"; }
+.flaticon-009-wallet:before { content: "\f108"; }
+.flaticon-010-internet:before { content: "\f109"; }
+.flaticon-011-cashier:before { content: "\f10a"; }
+.flaticon-012-energy:before { content: "\f10b"; }
+.flaticon-013-motorway:before { content: "\f10c"; }
+.flaticon-014-truck:before { content: "\f10d"; }
+.flaticon-015-billboard:before { content: "\f10e"; }
+.flaticon-016-rest-area:before { content: "\f10f"; }
+.flaticon-017-food:before { content: "\f110"; }
+.flaticon-018-bus:before { content: "\f111"; }
+.flaticon-019-tv:before { content: "\f112"; }
+.flaticon-020-portable-toilets:before { content: "\f113"; }
+.flaticon-021-hospital:before { content: "\f114"; }
+.flaticon-022-cutlery:before { content: "\f115"; }
+.flaticon-023-fries:before { content: "\f116"; }
+.flaticon-024-billboard-1:before { content: "\f117"; }
+.flaticon-025-directional-sign:before { content: "\f118"; }
+.flaticon-026-signaling:before { content: "\f119"; }
+.flaticon-027-fashion:before { content: "\f11a"; }
+.flaticon-028-hot-dog:before { content: "\f11b"; }
+.flaticon-029-arcade-machine:before { content: "\f11c"; }
+.flaticon-030-buffet:before { content: "\f11d"; }
+.flaticon-031-parking:before { content: "\f11e"; }
+.flaticon-032-motel:before { content: "\f11f"; }
+.flaticon-033-placeholder:before { content: "\f120"; }
+.flaticon-034-shopping-bag:before { content: "\f121"; }
+.flaticon-035-information:before { content: "\f122"; }
+.flaticon-036-telephone:before { content: "\f123"; }
+.flaticon-037-fried-chicken:before { content: "\f124"; }
+.flaticon-038-vending-machine:before { content: "\f125"; }
+.flaticon-039-shower:before { content: "\f126"; }
+.flaticon-040-bread:before { content: "\f127"; }
+.flaticon-041-hamburguer:before { content: "\f128"; }
+.flaticon-042-coffee:before { content: "\f129"; }
+.flaticon-043-drinks:before { content: "\f12a"; }
+.flaticon-044-water-bottle:before { content: "\f12b"; }
+.flaticon-045-caravan:before { content: "\f12c"; }
+.flaticon-046-vegetables:before { content: "\f12d"; }
+.flaticon-047-no-trucks:before { content: "\f12e"; }
+.flaticon-048-fountain:before { content: "\f12f"; }
+.flaticon-049-fax:before { content: "\f130"; }
+.flaticon-050-bumper-car:before { content: "\f131"; }

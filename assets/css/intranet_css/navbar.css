@@ -1,0 +1,167 @@
+@media screen and (max-width: 1090px) {
+    .nav-content-center .nav-title {
+        font-size: 2vh !important;
+    }
+}
+
+nav {
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(28, 28, 29, 0.6);
+    border-bottom: 0.01em solid #fff;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+body h1, h2 {
+    text-align: center;
+}
+
+.nav-content-start,
+.nav-content-center,
+.nav-content-end {
+    width: 30%;
+    height: 100%;
+}
+
+.nav-content-start {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#loginDropdownMenu {
+    background: none;
+    border: none;
+    box-shadow: none;
+    line-height: 4.8vh;
+}
+
+#loginDropdownMenu span {
+    font-size: 2vh;
+    margin: 0vh 1vh;
+    vertical-align: top;
+}
+
+#loginDropdownMenu img {
+    width: auto;
+    height: 4vh;
+}
+
+.user-info {
+    color: white;
+}
+
+.login-dropdown-content {
+    text-align: center;
+    width: 21vh;
+}
+
+/* .dropdown-item:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(55, 55, 55);
+} */
+
+.nav-content-center {
+    text-align: center;
+}
+
+.nav-content-center .nav-title {
+    color: white;
+    font-size: 3vh;
+    margin-bottom: 1vh;
+    line-height: 3vh;
+}
+
+.nav-content-end {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+/* .nav-content-end div{
+    top: -0.5vh;
+} */
+
+/* NAV HEADER RIGHT */
+/* .dropdown-menu {
+    color: #fff !important;
+    background: rgba(0, 0, 0, 0.64) !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.73) !important;
+    border-radius: 3% !important;
+} */
+.titlefav {
+    color: #ffc107 !important;
+    background-color: rgba(0, 0, 0, 0.64) !important;
+    border-radius: 3% !important;
+}
+
+.titletache {
+    color: #ff4107 !important;
+    background-color: rgba(0, 0, 0, 0.64) !important;
+    border-radius: 3% !important;
+}
+
+.titleparam {
+    color: #07ebff !important;
+    background-color: rgba(0, 0, 0, 0.64) !important;
+    border-radius: 3% !important;
+}
+
+.titletchat {
+    color: #07ffd1 !important;
+    background-color: rgba(0, 0, 0, 0.64) !important;
+    border-radius: 3% !important;
+}
+
+/* .dropdown>.dropdown-menu:after {
+    border-bottom: 6px solid rgba(0, 0, 0, 0.64) !important;
+} */
+.nav-right-icons {
+    font-size: 2.3vh;
+    border-radius: 5px;
+    padding: 0.8vh 1vh 1vh 1vh;
+    border: solid 1.5px transparent;
+}
+
+#fullscreen-btn,
+#dropdownFavorite,
+#dropdownTasks,
+#dropdownChat,
+#dropdownSettings {
+    background: none;
+    color: white;
+    border: none;
+    line-height: 7vh;
+}
+
+.nav-expand-button,
+.nav-favorites-button,
+.nav-tasks-button,
+.nav-chat-button,
+.nav-settings-button {
+    margin-top: -0.5vh;
+}
+
+.nav-expand-button:hover .nav-right-icons,
+.nav-favorites-button:hover .nav-right-icons,
+.nav-tasks-button:hover .nav-right-icons,
+.nav-chat-button:hover .nav-right-icons,
+.nav-settings-button:hover .nav-right-icons {
+    font-size: 2.3vh;
+    border-radius: 5px;
+    padding: 0.8vh 1vh 1vh 1vh;
+    border: solid 1.5px grey;
+    background: rgba(231, 231, 231, 0.2);
+}
+
+#fullscreen-btn:focus,
+#dropdownFavorite:focus,
+#dropdownTasks:focus,
+#dropdownChat:focus,
+#dropdownSettings:focus {
+    outline: none;
+}

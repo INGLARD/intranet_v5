@@ -1,0 +1,131 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:21
+  	*/
+
+@font-face {
+  font-family: "management";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "management";
+    src: url("./Flaticon.svg#management") format("svg");
+  }
+}
+
+[class^="management-"]:before, [class*=" management-"]:before,
+[class^="management-"]:after, [class*=" management-"]:after {   
+  font-family: management;
+        font-size: 10px;
+font-style: normal;
+margin-left: 2px;
+}
+
+.management-administrator:before { content: "\f100"; }
+.management-agreement:before { content: "\f101"; }
+.management-armchair:before { content: "\f102"; }
+.management-badge:before { content: "\f103"; }
+.management-bank:before { content: "\f104"; }
+.management-bank-card:before { content: "\f105"; }
+.management-basket:before { content: "\f106"; }
+.management-binocoulars:before { content: "\f107"; }
+.management-box:before { content: "\f108"; }
+.management-box-1:before { content: "\f109"; }
+.management-bullseye:before { content: "\f10a"; }
+.management-business-card:before { content: "\f10b"; }
+.management-cabinet:before { content: "\f10c"; }
+.management-calculator:before { content: "\f10d"; }
+.management-calculator-1:before { content: "\f10e"; }
+.management-calendar:before { content: "\f10f"; }
+.management-calendar-1:before { content: "\f110"; }
+.management-calendar-2:before { content: "\f111"; }
+.management-cart:before { content: "\f112"; }
+.management-cart-with-boxes:before { content: "\f113"; }
+.management-certificate:before { content: "\f114"; }
+.management-check:before { content: "\f115"; }
+.management-check-mark:before { content: "\f116"; }
+.management-clip:before { content: "\f117"; }
+.management-clock:before { content: "\f118"; }
+.management-container:before { content: "\f119"; }
+.management-conversation:before { content: "\f11a"; }
+.management-customer-relationship-management:before { content: "\f11b"; }
+.management-desk:before { content: "\f11c"; }
+.management-destination:before { content: "\f11d"; }
+.management-diagram:before { content: "\f11e"; }
+.management-director-desk:before { content: "\f11f"; }
+.management-document-with-tables:before { content: "\f120"; }
+.management-documents:before { content: "\f121"; }
+.management-exchange-personel:before { content: "\f122"; }
+.management-flag:before { content: "\f123"; }
+.management-folders:before { content: "\f124"; }
+.management-gear:before { content: "\f125"; }
+.management-glasses:before { content: "\f126"; }
+.management-graph:before { content: "\f127"; }
+.management-graph-1:before { content: "\f128"; }
+.management-graph-2:before { content: "\f129"; }
+.management-graph-3:before { content: "\f12a"; }
+.management-growth:before { content: "\f12b"; }
+.management-hammer:before { content: "\f12c"; }
+.management-hand:before { content: "\f12d"; }
+.management-head:before { content: "\f12e"; }
+.management-idea:before { content: "\f12f"; }
+.management-idea-1:before { content: "\f130"; }
+.management-info:before { content: "\f131"; }
+.management-job:before { content: "\f132"; }
+.management-lamp:before { content: "\f133"; }
+.management-laptop:before { content: "\f134"; }
+.management-list:before { content: "\f135"; }
+.management-list-1:before { content: "\f136"; }
+.management-man:before { content: "\f137"; }
+.management-manager:before { content: "\f138"; }
+.management-megaphone:before { content: "\f139"; }
+.management-network:before { content: "\f13a"; }
+.management-note:before { content: "\f13b"; }
+.management-notebook:before { content: "\f13c"; }
+.management-notebook-1:before { content: "\f13d"; }
+.management-office-building:before { content: "\f13e"; }
+.management-office-buildings:before { content: "\f13f"; }
+.management-open-box:before { content: "\f140"; }
+.management-pencin-and-eraser:before { content: "\f141"; }
+.management-percent:before { content: "\f142"; }
+.management-phone-book:before { content: "\f143"; }
+.management-phone-call:before { content: "\f144"; }
+.management-piggy-bank:before { content: "\f145"; }
+.management-pin:before { content: "\f146"; }
+.management-presentation:before { content: "\f147"; }
+.management-pyramid:before { content: "\f148"; }
+.management-sand-clock:before { content: "\f149"; }
+.management-scales:before { content: "\f14a"; }
+.management-search:before { content: "\f14b"; }
+.management-search-1:before { content: "\f14c"; }
+.management-search-2:before { content: "\f14d"; }
+.management-search-3:before { content: "\f14e"; }
+.management-search-4:before { content: "\f14f"; }
+.management-shield:before { content: "\f150"; }
+.management-shirt:before { content: "\f151"; }
+.management-stats:before { content: "\f152"; }
+.management-steering-wheel:before { content: "\f153"; }
+.management-stopwatch:before { content: "\f154"; }
+.management-store:before { content: "\f155"; }
+.management-suitcase:before { content: "\f156"; }
+.management-suitcase-1:before { content: "\f157"; }
+.management-summary:before { content: "\f158"; }
+.management-table:before { content: "\f159"; }
+.management-target:before { content: "\f15a"; }
+.management-tea:before { content: "\f15b"; }
+.management-team:before { content: "\f15c"; }
+.management-tie:before { content: "\f15d"; }
+.management-tones:before { content: "\f15e"; }
+.management-tribune:before { content: "\f15f"; }
+.management-truck:before { content: "\f160"; }
+.management-wallet:before { content: "\f161"; }
+.management-watch:before { content: "\f162"; }
+.management-workers:before { content: "\f163"; }

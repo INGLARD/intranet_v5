@@ -1,0 +1,4 @@
+<?php
+// Connexion à MySQL
+
+?>

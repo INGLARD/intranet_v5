@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'datacon';
+  src: url('datacon.eot');
+  src: url('datacon.eot#iefix') format('embedded-opentype'),
+       url('datacon.woff') format('woff'),
+       url('datacon.ttf') format('truetype'),
+       url('datacon.svg#datacon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='icon-datacon-']:before,
+[class*='icon-datacon-']:before {
+    font-family: 'datacon';
+	/*margin-left: 6px;
+	 font-size: 0.8em;*/
+font-style: normal;
+}
+
+
+
+
+.icon-datacon-add-heart:before { content: "\f100"; }
+.icon-datacon-add-star:before { content: "\f101"; }
+.icon-datacon-to-favorites:before { content: "\f102"; }
+.icon-datacon-star-plus:before { content: "\f103"; }
+.icon-datacon-add-bookmark:before { content: "\f104"; }
+.icon-datacon-add-bookmarks:before { content: "\f105"; }
+.icon-datacon-star:before { content: "\f106"; }
+.icon-datacon-bookmark:before { content: "\f107"; }
+.icon-datacon-heart:before { content: "\f108"; }
+.icon-datacon-bookmark-1:before { content: "\f109"; }
+.icon-datacon-add-to-favorite:before { content: "\f10a"; }
+.icon-datacon-star-1:before { content: "\f10b"; }
+.icon-datacon-bookmark-2:before { content: "\f10c"; }
+.icon-datacon-vision:before { content: "\f10d"; }
+.icon-datacon-store:before { content: "\f10e"; }
+.icon-datacon-user-silhouette:before { content: "\f10f"; }

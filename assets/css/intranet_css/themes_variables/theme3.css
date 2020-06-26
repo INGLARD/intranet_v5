@@ -1,0 +1,30 @@
+#footer {
+    background-color:#c5bbb2;
+}
+body {
+
+    background-image: url('../../../img/backgrounds/bbg_boulangeie_background.jpg') !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* COLOR VARS */
+
+:root {
+
+  --qhse-text: #1a171b;
+  --mag-text: #636064;
+  --boul-text: #ff7e00;
+  --plan-text: #f6a439;
+   --compta-text: #fedc4e;
+  --social-text: #eae4ca;
+  --cmptclt-text: #6b5653;
+  --fin-text: #724137;
+  --relation_sociale-text: #6e1d0e;
+  --entretien_pro-text: #3f1109;
+  --entretien_pro_ph-text: #534334;
+  --agenda-text: #9e8768;
+  --formation-text: #f0ebe3;
+  --documents-text: #471309;
+  --admin-text: #150502;
+}

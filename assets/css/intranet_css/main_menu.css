@@ -1,0 +1,157 @@
+/* MAIN MENU ICONS */
+@media only screen and (min-width: 768px) {
+    .container_menu {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container_menu {
+        width: 70%;
+    }
+}
+
+.container_menu {
+    margin: auto !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_icon {
+    margin: 6vh auto;
+}
+
+.btmenu {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.46);
+    border-radius: 1.5vh;
+    width: 8vh;
+    height: 8vh;
+    font-size: 1.4vh;
+    line-height: 7.5vh;
+    text-align: center;
+    margin: auto;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+/* BOUNCE EFFECT ON BTMENU */
+@keyframes bounce {
+    0%, 100%, 20%, 50%, 80% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px)
+    }
+
+    60% {
+        -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        transform: translateY(-10px)
+    }
+}
+
+.btmenu:hover {
+    cursor: pointer;
+    animation-name: bounce;
+    -moz-animation-name: bounce;
+}
+
+.btmenu img {
+    width: 95%;
+    margin: auto;
+}
+
+.titreicon {
+    font-size: 1.5vh;
+    margin-top: 1vh;
+    text-transform: uppercase;
+    color: white;
+    font-weight: lighter;
+}
+
+/* MAIN MENU SUBMENUS */
+.submenus_trigger2 {
+    width: 100%;
+    height: 100%;
+    background: grey;
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.submenu_htitle {
+    text-align: center;
+    font-size: 2vh;
+    padding: 2vh;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.submenu_backsub {
+    margin-bottom: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 4vh;
+}
+
+.submenu_backsub .documents_breadcrumb {
+    display: none;
+}
+
+.submenu_icomenu,
+.submenu_titlemenu,
+.submenu_separsub,
+.submenu_titlesubmenu {
+    margin: 0.3vh;
+    font-size: 1.4vh;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.submenu_backsub p:last-child {
+    pointer-events: none;
+    color: #ffff;
+}
+
+.submenu_exit {
+    float: right;
+    font-size: 1.5vh;
+    position: relative;
+    line-height: 4vh;
+    right: 2vh;
+    cursor: pointer;
+}
+
+.submenu_icomenu {
+    line-height: 3.6vh;
+    cursor: pointer;
+}
+
+.submenu_titlemenu {
+    cursor: pointer;
+}
+
+.submenu_separsub {}
+
+.submenu_titlesubmenu {}
+
+.intranet_submenu_slide {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+}

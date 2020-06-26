@@ -1,0 +1,203 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 24/08/2018 16:42
+  	*/
+
+@font-face {
+  font-family: "collectionicons";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#collectionicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "collectionicons";
+     src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="collectionicons-"]:before, [class*=" collectionicons-"]:before,
+[class^="collectionicons-"]:after, [class*=" collectionicons-"]:after {   
+  font-family: collectionicons;
+       
+font-style: normal;
+margin-left: -1px;
+}
+
+[class^="collectionicons2-"]:before, [class*=" collectionicons2-"]:before,
+[class^="collectionicons2-"]:after, [class*=" collectionicons2-"]:after {   
+  font-family: collectionicons;
+        
+font-style: normal;
+
+}
+
+.collectionicons-money:before { content: "\f100"; }
+.collectionicons-notebook:before { content: "\f101"; }
+.collectionicons-network:before { content: "\f102"; }
+.collectionicons-content:before { content: "\f103"; }
+.collectionicons-businessman:before { content: "\f104"; }
+.collectionicons-shop:before { content: "\f105"; }
+.collectionicons-writing:before { content: "\f106"; }
+.collectionicons-diagram:before { content: "\f107"; }
+.collectionicons-partner:before { content: "\f108"; }
+.collectionicons-bullet:before { content: "\f109"; }
+.collectionicons-bank-building:before { content: "\f10a"; }
+.collectionicons-credit-card:before { content: "\f10b"; }
+.collectionicons-customer:before { content: "\f10c"; }
+.collectionicons-target:before { content: "\f10d"; }
+.collectionicons-person-of-a-call-center-in-communication-with-headphones:before { content: "\f10e"; }
+.collectionicons-bill:before { content: "\f10f"; }
+.collectionicons-invoice:before { content: "\f110"; }
+.collectionicons-bill-1:before { content: "\f111"; }
+.collectionicons-wallet:before { content: "\f112"; }
+.collectionicons-deposit:before { content: "\f113"; }
+.collectionicons-safe-deposit-box:before { content: "\f114"; }
+.collectionicons-calendar:before { content: "\f115"; }
+.collectionicons-discount:before { content: "\f116"; }
+.collectionicons-badge:before { content: "\f117"; }
+.collectionicons-sales:before { content: "\f118"; }
+.collectionicons-percentage-discount:before { content: "\f119"; }
+.collectionicons-percentage:before { content: "\f11a"; }
+.collectionicons-commerce:before { content: "\f11b"; }
+.collectionicons-home:before { content: "\f11c"; }
+.collectionicons-shop-1:before { content: "\f11d"; }
+.collectionicons-location:before { content: "\f11e"; }
+.collectionicons-list:before { content: "\f11f"; }
+.collectionicons-partner-1:before { content: "\f120"; }
+.collectionicons-shopping-cart:before { content: "\f121"; }
+.collectionicons-commerce-and-shopping:before { content: "\f122"; }
+.collectionicons-users-group:before { content: "\f123"; }
+.collectionicons-cart:before { content: "\f124"; }
+.collectionicons-block:before { content: "\f125"; }
+.collectionicons-login:before { content: "\f126"; }
+.collectionicons-phone-book:before { content: "\f127"; }
+.collectionicons-shopping:before { content: "\f128"; }
+.collectionicons-account:before { content: "\f129"; }
+.collectionicons-calendar-1:before { content: "\f12a"; }
+.collectionicons-skills:before { content: "\f12b"; }
+.collectionicons-folder:before { content: "\f12c"; }
+.collectionicons-hiring:before { content: "\f12d"; }
+.collectionicons-hiring-1:before { content: "\f12e"; }
+.collectionicons-account-1:before { content: "\f12f"; }
+.collectionicons-login-1:before { content: "\f130"; }
+.collectionicons-write-letter:before { content: "\f131"; }
+.collectionicons-money-1:before { content: "\f132"; }
+.collectionicons-decision-making:before { content: "\f133"; }
+.collectionicons-calendar-2:before { content: "\f134"; }
+.collectionicons-calendar-3:before { content: "\f135"; }
+.collectionicons-rating:before { content: "\f136"; }
+.collectionicons-smartphone-call:before { content: "\f137"; }
+.collectionicons-programming:before { content: "\f138"; }
+.collectionicons-maintenance:before { content: "\f139"; }
+.collectionicons-milk-bottle:before { content: "\f13a"; }
+.collectionicons-stopwatch:before { content: "\f13b"; }
+.collectionicons-hourglass:before { content: "\f13c"; }
+.collectionicons-test:before { content: "\f13d"; }
+.collectionicons-checklist:before { content: "\f13e"; }
+.collectionicons-id:before { content: "\f13f"; }
+.collectionicons-sun:before { content: "\f140"; }
+.collectionicons-folder-1:before { content: "\f141"; }
+.collectionicons-home-1:before { content: "\f142"; }
+.collectionicons-location-1:before { content: "\f143"; }
+.collectionicons-house-key:before { content: "\f144"; }
+.collectionicons-open-magazine:before { content: "\f145"; }
+.collectionicons-quiz-on-computer-with-question-signs-around:before { content: "\f146"; }
+.collectionicons-evaluate:before { content: "\f147"; }
+.collectionicons-evaluation:before { content: "\f148"; }
+.collectionicons-test-1:before { content: "\f149"; }
+.collectionicons-interview:before { content: "\f14a"; }
+.collectionicons-teamwork:before { content: "\f14b"; }
+.collectionicons-teamwork-1:before { content: "\f14c"; }
+.collectionicons-teamwork-2:before { content: "\f14d"; }
+.collectionicons-meeting:before { content: "\f14e"; }
+.collectionicons-download:before { content: "\f14f"; }
+.collectionicons-printer:before { content: "\f150"; }
+
+
+.collectionicons2-money:before { content: "\f100"; }
+.collectionicons2-notebook:before { content: "\f101"; }
+.collectionicons2-network:before { content: "\f102"; }
+.collectionicons2-content:before { content: "\f103"; }
+.collectionicons2-businessman:before { content: "\f104"; }
+.collectionicons2-shop:before { content: "\f105"; }
+.collectionicons2-writing:before { content: "\f106"; }
+.collectionicons2-diagram:before { content: "\f107"; }
+.collectionicons2-partner:before { content: "\f108"; }
+.collectionicons2-bullet:before { content: "\f109"; }
+.collectionicons2-bank-building:before { content: "\f10a"; }
+.collectionicons2-credit-card:before { content: "\f10b"; }
+.collectionicons2-customer:before { content: "\f10c"; }
+.collectionicons2-target:before { content: "\f10d"; }
+.collectionicons2-person-of-a-call-center-in-communication-with-headphones:before { content: "\f10e"; }
+.collectionicons2-bill:before { content: "\f10f"; }
+.collectionicons2-invoice:before { content: "\f110"; }
+.collectionicons2-bill-1:before { content: "\f111"; }
+.collectionicons2-wallet:before { content: "\f112"; }
+.collectionicons2-deposit:before { content: "\f113"; }
+.collectionicons2-safe-deposit-box:before { content: "\f114"; }
+.collectionicons2-calendar:before { content: "\f115"; }
+.collectionicons2-discount:before { content: "\f116"; }
+.collectionicons2-badge:before { content: "\f117"; }
+.collectionicons2-sales:before { content: "\f118"; }
+.collectionicons2-percentage-discount:before { content: "\f119"; }
+.collectionicons2-percentage:before { content: "\f11a"; }
+.collectionicons2-commerce:before { content: "\f11b"; }
+.collectionicons2-home:before { content: "\f11c"; }
+.collectionicons2-shop-1:before { content: "\f11d"; }
+.collectionicons2-location:before { content: "\f11e"; }
+.collectionicons2-list:before { content: "\f11f"; }
+.collectionicons2-partner-1:before { content: "\f120"; }
+.collectionicons2-shopping-cart:before { content: "\f121"; }
+.collectionicons2-commerce-and-shopping:before { content: "\f122"; }
+.collectionicons2-users-group:before { content: "\f123"; }
+.collectionicons2-cart:before { content: "\f124"; }
+.collectionicons2-block:before { content: "\f125"; }
+.collectionicons2-login:before { content: "\f126"; }
+.collectionicons2-phone-book:before { content: "\f127"; }
+.collectionicons2-shopping:before { content: "\f128"; }
+.collectionicons2-account:before { content: "\f129"; }
+.collectionicons2-calendar-1:before { content: "\f12a"; }
+.collectionicons2-skills:before { content: "\f12b"; }
+.collectionicons2-folder:before { content: "\f12c"; }
+.collectionicons2-hiring:before { content: "\f12d"; }
+.collectionicons2-hiring-1:before { content: "\f12e"; }
+.collectionicons2-account-1:before { content: "\f12f"; }
+.collectionicons2-login-1:before { content: "\f130"; }
+.collectionicons2-write-letter:before { content: "\f131"; }
+.collectionicons2-money-1:before { content: "\f132"; }
+.collectionicons2-decision-making:before { content: "\f133"; }
+.collectionicons2-calendar-2:before { content: "\f134"; }
+.collectionicons2-calendar-3:before { content: "\f135"; }
+.collectionicons2-rating:before { content: "\f136"; }
+.collectionicons2-smartphone-call:before { content: "\f137"; }
+.collectionicons2-programming:before { content: "\f138"; }
+.collectionicons2-maintenance:before { content: "\f139"; }
+.collectionicons2-milk-bottle:before { content: "\f13a"; }
+.collectionicons2-stopwatch:before { content: "\f13b"; }
+.collectionicons2-hourglass:before { content: "\f13c"; }
+.collectionicons2-test:before { content: "\f13d"; }
+.collectionicons2-checklist:before { content: "\f13e"; }
+.collectionicons2-id:before { content: "\f13f"; }
+.collectionicons2-sun:before { content: "\f140"; }
+.collectionicons2-folder-1:before { content: "\f141"; }
+.collectionicons2-home-1:before { content: "\f142"; }
+.collectionicons2-location-1:before { content: "\f143"; }
+.collectionicons2-house-key:before { content: "\f144"; }
+.collectionicons2-open-magazine:before { content: "\f145"; }
+.collectionicons2-quiz-on-computer-with-question-signs-around:before { content: "\f146"; }
+.collectionicons2-evaluate:before { content: "\f147"; }
+.collectionicons2-evaluation:before { content: "\f148"; }
+.collectionicons2-test-1:before { content: "\f149"; }
+.collectionicons2-interview:before { content: "\f14a"; }
+.collectionicons2-teamwork:before { content: "\f14b"; }
+.collectionicons2-teamwork-1:before { content: "\f14c"; }
+.collectionicons2-teamwork-2:before { content: "\f14d"; }
+.collectionicons2-meeting:before { content: "\f14e"; }
+.collectionicons2-download:before { content: "\f14f"; }
+.collectionicons2-printer:before { content: "\f150"; }

@@ -1,0 +1,61 @@
+/* MES PARAMETRES CSS */
+.themes_dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.backgrounds_dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2vh;
+}
+
+
+.vertical-button.bluechange {
+    background-color: rgb(20, 11, 78);
+}
+
+.vertical-button.blackchange {
+    background-color: rgb(56, 56, 56);
+}
+
+.vertical-button.boulchange {
+    background-color: rgb(230, 135, 59);
+}
+
+.vertical-button.provencalles {
+    background-color: rgb(63, 134, 59);
+}
+
+.themes_dashboard .vertical-button {
+    width: 28%;
+    color: white;
+    margin: 2.6%;
+}
+
+.themes_dashboard .vertical-button:hover {
+    transform: scale(1.5);
+    font-weight: bold;
+}
+
+.backgrounds_dashboard .vertical-button:hover {
+    transform: scale(1.5);
+    color: white;
+}
+
+a.btn.vertical-button.defaultchange {
+    background: -webkit-linear-gradient(0deg, rgba(95, 195, 255, 1) 0, rgba(95, 195, 255, 1) 25%, rgba(228, 124, 16, 1) 25%, rgba(228, 124, 16, 1) 50%, rgba(255, 72, 0, 1) 50%, rgba(255, 72, 0, 1) 75%, rgba(24, 128, 146, 1) 75%, rgba(24, 128, 146, 1) 100%);
+    background: -moz-linear-gradient(90deg, rgba(95, 195, 255, 1) 0, rgba(95, 195, 255, 1) 25%, rgba(228, 124, 16, 1) 25%, rgba(228, 124, 16, 1) 50%, rgba(255, 72, 0, 1) 50%, rgba(255, 72, 0, 1) 75%, rgba(24, 128, 146, 1) 75%, rgba(24, 128, 146, 1) 100%);
+    background: linear-gradient(90deg, rgba(95, 195, 255, 1) 0, rgba(95, 195, 255, 1) 25%, rgba(228, 124, 16, 1) 25%, rgba(228, 124, 16, 1) 50%, rgba(255, 72, 0, 1) 50%, rgba(255, 72, 0, 1) 75%, rgba(24, 128, 146, 1) 75%, rgba(24, 128, 146, 1) 100%);
+}
+
+.btn.vertical-button.picchangeDefault {
+    background-image: url("/intranet_v5/assets/img/backgrounds/default_background.jpg");
+}
+
+.btn.vertical-button.picchange01 {
+    background-image: url("/intranet_v5/assets/img/backgrounds/01_background.jpg");
+    background-size: 300px 100px;
+}

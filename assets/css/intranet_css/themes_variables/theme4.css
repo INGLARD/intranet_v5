@@ -1,0 +1,30 @@
+#footer {
+    background-color:#25292f;
+}
+body {
+
+    background-image: url('../../../img/backgrounds/bbg_ph_background.jpg') !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* COLOR VARS */
+
+:root {
+
+  --qhse-text: #001817;
+  --mag-text: #005350;
+  --boul-text: #23afa5;
+  --plan-text: #50e17b;
+   --compta-text: #cce35b;
+  --social-text: #bfe291;
+  --cmptclt-text: #f2f78b;
+  --fin-text: #009fe3;
+  --relation_sociale-text: #00d7e2;
+  --entretien_pro-text: #00e2c1;
+  --entretien_pro_ph-text: #aaf9ed;
+  --agenda-text: #8f761d;
+  --formation-text: #e56d29;
+  --documents-text: #e63027;
+  --admin-text: #65b32e;
+}

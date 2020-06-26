@@ -1,0 +1,111 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:05
+  	*/
+
+@font-face {
+  font-family: "drinkset";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#drinkset") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "drinkset";
+    src: url("./Flaticon.svg#drinkset") format("svg");
+  }
+}
+
+[class^="drinkset-"]:before, [class*=" drinkset-"]:before,
+[class^="drinkset-"]:after, [class*=" drinkset-"]:after {   
+  font-family: drinkset;
+        font-size: 10px;
+font-style: normal;
+margin-left: 2px;
+}
+
+.drinkset-beer-drink-jar-outline:before { content: "\f100"; }
+.drinkset-beer-glass:before { content: "\f101"; }
+.drinkset-big-drink-glass-with-bubbles:before { content: "\f102"; }
+.drinkset-big-full-drink-glass-from-side-view:before { content: "\f103"; }
+.drinkset-black-beverage-glass-striped-tool-side-view:before { content: "\f104"; }
+.drinkset-bottle-dark-big-shape-with-oval-label:before { content: "\f105"; }
+.drinkset-bottle-of-water:before { content: "\f106"; }
+.drinkset-box-liquid-food-container-outline:before { content: "\f107"; }
+.drinkset-brindis-of-soda-glasses-couple:before { content: "\f108"; }
+.drinkset-brindis-with-wine-glasses:before { content: "\f109"; }
+.drinkset-bubbles-drink-glass-container-with-a-straw:before { content: "\f10a"; }
+.drinkset-champagne-drink-glass:before { content: "\f10b"; }
+.drinkset-cocktail:before { content: "\f10c"; }
+.drinkset-cocktail-drink-glass-with-an-olive:before { content: "\f10d"; }
+.drinkset-cocktail-drink-glass-with-lemon-slice:before { content: "\f10e"; }
+.drinkset-cocktail-glass-from-side-view:before { content: "\f10f"; }
+.drinkset-cocktail-glass-with-an-umbrella:before { content: "\f110"; }
+.drinkset-cocktail-glass-with-lemon:before { content: "\f111"; }
+.drinkset-cocktail-glass-with-lemon-slice:before { content: "\f112"; }
+.drinkset-cocktail-glass-with-lemon-slice-on-the-border:before { content: "\f113"; }
+.drinkset-coffee-beans-outline:before { content: "\f114"; }
+.drinkset-coffee-creamy-glass-side-view:before { content: "\f115"; }
+.drinkset-coffee-cup-outline:before { content: "\f116"; }
+.drinkset-coffee-jar-of-rounded-shape:before { content: "\f117"; }
+.drinkset-coffee-rounded-jar:before { content: "\f118"; }
+.drinkset-coffee-seeds:before { content: "\f119"; }
+.drinkset-cold-drink-glass-with-ice-cubes:before { content: "\f11a"; }
+.drinkset-commercial-drink-glass-with-cover:before { content: "\f11b"; }
+.drinkset-cool-drink-glass-with-a-straw-and-ice-cubes-floating-in-dark-liquid:before { content: "\f11c"; }
+.drinkset-corkscrew:before { content: "\f11d"; }
+.drinkset-corkscrew-1:before { content: "\f11e"; }
+.drinkset-cup:before { content: "\f11f"; }
+.drinkset-cup-side-view-outline-with-a-heart-romantic-symbol:before { content: "\f120"; }
+.drinkset-dark-liquor-in-bottle:before { content: "\f121"; }
+.drinkset-drink-beer-jar:before { content: "\f122"; }
+.drinkset-drink-big-tall-glass-with-soda:before { content: "\f123"; }
+.drinkset-drink-bottle:before { content: "\f124"; }
+.drinkset-drink-box-black-container-shape:before { content: "\f125"; }
+.drinkset-drink-can:before { content: "\f126"; }
+.drinkset-drink-can-of-unhealthy-aluminum-material:before { content: "\f127"; }
+.drinkset-drink-container-with-cover:before { content: "\f128"; }
+.drinkset-drink-elegant-glass-of-triangular-shape-full-of-liquid:before { content: "\f129"; }
+.drinkset-drink-glass-full-of-wine:before { content: "\f12a"; }
+.drinkset-drink-glass-outline-with-lemon-slice-and-straw:before { content: "\f12b"; }
+.drinkset-drink-glass-transparent-container-outline-with-white-wine:before { content: "\f12c"; }
+.drinkset-drink-glass-with-beverage-inside:before { content: "\f12d"; }
+.drinkset-drink-glass-with-soda-and-straw:before { content: "\f12e"; }
+.drinkset-drink-glass-with-straw:before { content: "\f12f"; }
+.drinkset-drink-hot-cup-black-side-view-silhouette:before { content: "\f130"; }
+.drinkset-drink-in-transparent-glass-bottle:before { content: "\f131"; }
+.drinkset-drink-in-transparent-glass-with-a-straw:before { content: "\f132"; }
+.drinkset-drink-set-outline-of-glass-with-a-straw:before { content: "\f133"; }
+.drinkset-drink-striped-glass-with-straw:before { content: "\f134"; }
+.drinkset-drink-tall-glass-with-soda:before { content: "\f135"; }
+.drinkset-fresh-soda-glass-with-lemon-slice-and-straw:before { content: "\f136"; }
+.drinkset-glass-outline-of-striped-design-with-cover:before { content: "\f137"; }
+.drinkset-glass-transparent-with-drink-and-straw:before { content: "\f138"; }
+.drinkset-glass-with-dark-drink:before { content: "\f139"; }
+.drinkset-hot-coffee-cup-on-a-plate:before { content: "\f13a"; }
+.drinkset-hot-coffee-jar:before { content: "\f13b"; }
+.drinkset-hot-coffee-rounded-cup-on-a-plate-from-side-view:before { content: "\f13c"; }
+.drinkset-metallic-drink-jar:before { content: "\f13d"; }
+.drinkset-milk-box:before { content: "\f13e"; }
+.drinkset-soda-or-coffee-covered-glass:before { content: "\f13f"; }
+.drinkset-soda-or-coffee-covered-glass-1:before { content: "\f140"; }
+.drinkset-soda-striped-glass-side-view:before { content: "\f141"; }
+.drinkset-tall-drink-glass-with-dark-soda-inside:before { content: "\f142"; }
+.drinkset-tall-glass-with-transparence-full-of-drink-with-a-straw:before { content: "\f143"; }
+.drinkset-tall-jar-for-coffee-or-tea:before { content: "\f144"; }
+.drinkset-tea-jar:before { content: "\f145"; }
+.drinkset-teapot-black-side-view-shape:before { content: "\f146"; }
+.drinkset-transparent-glass-with-cold-drink-with-ice-cubes-couple:before { content: "\f147"; }
+.drinkset-water-bottle:before { content: "\f148"; }
+.drinkset-water-glass-with-bubbles:before { content: "\f149"; }
+.drinkset-wine-bottle:before { content: "\f14a"; }
+.drinkset-wine-dark-bottle:before { content: "\f14b"; }
+.drinkset-wine-drink-glass:before { content: "\f14c"; }
+.drinkset-wine-full-glass:before { content: "\f14d"; }
+.drinkset-wine-glass:before { content: "\f14e"; }
+.drinkset-wine-glass-full-of-drink:before { content: "\f14f"; }

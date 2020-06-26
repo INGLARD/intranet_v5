@@ -1,0 +1,759 @@
+/* General styles for all menus */
+/* ---------------------------------------------------------------------------------------------------------*/
+/* Style pour mes taches et mes favoris version alain uniquement pour la page accueil ce systeme va changer*/
+/*footer*/
+h1.icon-elusive-clipboard {
+    font-weight: thin;
+}
+
+.txtprup {
+    color: #573275;
+}
+
+.txtgreen {
+    color: #43a225;
+}
+
+.txtgreen {
+    color: #43a225;
+}
+
+.cbp-spmenu.cbp-spmenu-vertical.cbp-spmenu-right2, .cbp-spmenu2.cbp-spmenu-vertical.cbp-spmenu-right2 {
+    right: 20px;
+}
+
+.date2 {
+    font-size: 2vh;
+    color: rgba(255, 255, 255, 0.93);
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.52);
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 2vh;
+}
+
+.date {
+    font-size: 1.5vh;
+    color: rgba(255, 255, 255, 0.93);
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.52);
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.heure {
+    font-size: 1.5vh;
+    color: rgba(255, 255, 255, 0.93);
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.52);
+    text-align: right;
+    font-weight: lighter;
+    font-family: 'Quicksand', sans-serif;
+}
+/*
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+} */
+
+/*   TOOL TIP*/
+/*main menu */
+.cbp-spmenu-push div#mcTooltipWrapper div#mcTooltip {
+    min-height: 30px !important;
+}
+
+ul.listt {
+    list-style-type: none;
+    margin-left: 2.5em;
+    padding-left: 0;
+}
+
+ul.listt>li.listtt {
+    position: relative;
+}
+
+.listtt span {
+    left: -3em;
+    position: absolute;
+    width: 3em;
+    line-height: inherit;
+}
+
+li.listtt {
+    margin-bottom: 10px;
+}
+
+.listtt span i.glyph-icon {
+    padding-right: 0.5vh !important;
+    font-size: 1.5em !important;
+    color: #5487bc;
+}
+
+/* taille des icone dans le menu proncipal de la page accueil*/
+.listtt span i.glyph-icon.icon-elusive-export {
+    font-size: 1.1em !important;
+}
+
+.listtt a {
+    font-size: 1.3em !important;
+    line-height: 1em;
+    color: rgb(49, 93, 123) !important;
+    font-family: "Quicksand", sans-serif !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    display: inline;
+    vertical-align: middle !important;
+}
+
+.listtt a:hover {
+    color: #5487bc !important;
+    text-decoration: none !important;
+}
+
+/* OLD TOOLTIP du 2709
+
+li.toot a{
+font-size:1.3vh;
+font-weight:bolder!important;
+line-height:2vh;
+color: #315d7b!important;
+font-family: 'Quicksand', sans-serif!important;
+font-weight: 700!important;
+font-style: normal!important;
+display:inline;
+vertical-align: middle!important;
+
+}
+li.toot{
+padding-bottom: 0.4vh!important;
+padding-top: 0.4vh!important;
+display: block;
+max-height:40px!important;
+
+}
+.toot .glyph-icon{
+	color: #5487bc;
+	font-size:1.8vh;
+	padding-right:0.5vh!important;
+}
+.toot i{
+font-size:3vh!important;
+font-weight:700!important;
+display: inline-block;
+color: #93bce7;
+background-color: #5487bc;
+width: 2vh;
+border-radius:0.2vh;
+padding-right: 1vh;
+
+}*/
+button#showRight.std {
+    position: absolute;
+    right: 0px;
+    top: 55%;
+    z-index: 99999;
+}
+
+button#showRight.active {
+    position: absolute;
+    right: 0px;
+    top: 55%;
+    z-index: 99999;
+}
+
+button#showRight2.std {
+    position: absolute;
+    right: 0px;
+    top: 55%;
+    z-index: 99999;
+}
+
+button#showRight2.active {
+    position: absolute;
+    right: 0px;
+    top: 55%;
+    z-index: 99999;
+    color: white;
+    background-color: green;
+}
+
+.cbp-spmenu {
+    /*background: rgba(0,192,239,0.28);*/
+    background: rgba(0, 192, 239, 0.75);
+    position: absolute;
+}
+
+.cbp-spmenu2 {
+    background: rgba(29, 188, 76, 0.4);
+    position: fixed;
+}
+
+.cbp-spmenu-bkg {
+    background: #005790;
+    position: fixed;
+}
+
+.containermenu {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.68), transparent);
+    height: 100%;
+    width: 100%;
+}
+
+.cbp-spmenu h3, .cbp-spmenu2 h3 {
+    color: #fff;
+    font-size: 1.3em;
+    padding: 10px;
+    margin: 0;
+    font-weight: 300;
+    /*background: #0d77b6;*/
+    border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid rgba(47, 132, 144, 0.4);
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.cbp-spmenu a, .cbp-spmenu2 a {
+    display: block;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+/* .cbp-spmenu a:hover {
+    background: #258ecd;
+    text-decoration: none;
+} */
+
+.cbp-spmenu2 a:hover {
+    background: #fff;
+    text-decoration: none;
+}
+
+/* .cbp-spmenu a:active, .cbp-spmenu2 a:active {
+    background: #afdefa;
+    color: #47a3da;
+} */
+
+/* Orientation-dependent styles for the content of the menu */
+.cbp-spmenu-vertical {
+    width: 240px;
+    /*height: 20%;*/
+    top: 17%;
+    z-index: 1000;
+    border: 1px solid #fff;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.64);
+    box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.64);
+}
+
+.cbp-spmenu-vertical2 {
+    width: 35vh;
+    height: 100%;
+    z-index: 999;
+    box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.64);
+}
+
+.cbp-spmenu-vertical a {
+    border-bottom: 1px solid rgba(47, 132, 144, 0.4);
+    padding: 0.5em;
+}
+
+.cbp-spmenu-horizontal {
+    width: 100%;
+    height: 150px;
+    left: 0;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.cbp-spmenu-horizontal h3 {
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+.cbp-spmenu-horizontal a {
+    float: left;
+    width: 20%;
+    padding: 0.8em;
+    border-left: 1px solid #258ecd;
+}
+
+/* Vertical menu that slides from the left or right */
+.cbp-spmenu-left2 {
+    left: -36vh;
+}
+
+.cbp-spmenu-left3 {
+    left: -36vh;
+}
+
+.cbp-spmenu-left {
+    left: -240px;
+}
+
+/* right: -260px;*/
+/*
+html body.cbp-spmenu-push nav#cbp-spmenu-s2.cbp-spmenu.cbp-spmenu-vertical.cbp-spmenu-right {
+	right: -57.64vh;
+}
+html body.cbp-spmenu-push nav#cbp-spmenu-s2.cbp-spmenu.cbp-spmenu-vertical.cbp-spmenu-right.cbp-spmenu-open {
+    right: 5%;
+}
+
+html body.cbp-spmenu-push nav#cbp-spmenu-s3.cbp-spmenu2.cbp-spmenu-vertical.cbp-spmenu-right {
+	right: -57.64vh;
+}
+html body.cbp-spmenu-push nav#cbp-spmenu-s3.cbp-spmenu2.cbp-spmenu-vertical.cbp-spmenu-right.cbp-spmenu-open {
+    right: 5%;
+}
+*/
+.cbp-spmenu-left2.cbp-spmenu-open {
+    left: 0px;
+}
+
+/* Horizontal menu that slides from the top or bottom */
+.cbp-spmenu-top {
+    top: -150px;
+}
+
+.cbp-spmenu-bottom {
+    bottom: -150px;
+}
+
+.cbp-spmenu-top.cbp-spmenu-open {
+    top: 0px;
+}
+
+.cbp-spmenu-bottom.cbp-spmenu-open {
+    bottom: 0px;
+}
+
+/* Push classes applied to the body */
+.cbp-spmenu-push {
+    overflow-x: hidden;
+    position: relative;
+    left: 0;
+}
+
+.cbp-spmenu-push-toright {
+    left: 240px;
+}
+
+.cbp-spmenu-push-toleft {
+    left: -240px;
+}
+
+.menulogo {
+    text-align: center;
+    margin-bottom: 30px !important;
+}
+
+.menulogo a:hover {
+    background: #00375a00;
+}
+
+ul li.side_menu_left a img {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 12px 0 0;
+    position: relative;
+}
+
+.sfm-sidebar-close {
+    z-index: 1000;
+}
+
+.sfm-sidebar-close {
+    position: relative;
+    top: 0;
+    width: 60px;
+    height: 50px;
+    right: -32vh;
+    cursor: pointer;
+    z-index: 10001;
+}
+
+.sfm-navicon, .sfm-navicon::after, .sfm-navicon::before, .sfm-sidebar-close::before, .sfm-sidebar-close::after {
+    height: 1px !important;
+}
+
+.sfm-sidebar-close::after, .sfm-sidebar-close::before {
+    width: 2vh;
+    top: 30px;
+    left: 14px;
+}
+
+.sfm-navicon::after, .sfm-navicon::before, .sfm-sidebar-close::after, .sfm-sidebar-close::before {
+    display: block;
+    content: "";
+    /* width: 100%;*/
+    height: 3px;
+    background: #e7e6dd;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transition: all .25s .25s;
+}
+
+.sfm-open.x .sfm-navicon::before, .sfm-sidebar-close::before {
+    -webkit-transform: rotate(-45deg) !important;
+    -moz-transform: rotate(-45deg) !important;
+    -ms-transform: rotate(-45deg) !important;
+    transform: rotate(-45deg) !important;
+}
+
+.sfm-open.x .sfm-navicon::after, .sfm-sidebar-close::after {
+    -webkit-transform: rotate(45deg) !important;
+    -moz-transform: rotate(45deg) !important;
+    -ms-transform: rotate(45deg) !important;
+    transform: rotate(45deg) !important;
+}
+
+#only-one li.side_menu_left.card.open ul {
+    max-height: 1200px !important;
+}
+
+/*Menu left   */
+/*  content: "\f105"; */
+.multi ins.sfm-sm-indicator i.glyph-icon::before {
+    content: "\f105";
+    font-size: 3vh;
+    vertical-align: middle;
+    display: inline-block;
+    color: inherit;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin: -.7em 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+.side_menu_left.card.open a.multi.collapsed.activeleft ins.sfm-sm-indicator i.glyph-icon::before {
+    content: "\f107";
+}
+
+.side_menu_left.card.open .submenuside ins.sfm-sm-indicator i.glyph-icon {
+    content: "\f105";
+}
+
+/* Sous menus et les fleches de droite modification du 03-10*/
+.card.open ul div li a.submenuside ins.sfm-sm-indicator i.glyph-icon::before {
+    content: "\f0da";
+}
+
+.card.open ul div li.open a.submenuside.activeleftsub ins.sfm-sm-indicator i.glyph-icon::before {
+    content: "\f0d7";
+}
+
+/*.side_menu_left.card.open  a.submenuside ins.sfm-sm-indicator i.glyph-icon.icon-caret-right::before{
+	content: "\f0da";
+}
+.side_menu_left.card.open ul div li.open a.submenuside.activeleftsub ins.sfm-sm-indicator i.glyph-icon.icon-caret-down::before{
+	content: "\f0d7";
+
+}*/
+.card {
+    background-color: #00457200;
+}
+
+.card-header {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+/* nav#kleft_nav li.side_menu_left a#menuboul.multi {
+    background: #2d72a4;
+    color: white;
+} */
+
+/* .side_menu_left a:active {
+    background: #2d72a4;
+    color: white;
+} */
+
+/* .activeleft {
+    background-color: #2d72a4;
+    color: white;
+} */
+
+.activeleftsub {
+    /* background-color: #1658844d; */
+    color: white;
+}
+
+/* ul li.side_menu_left a#boulmenuside.side_menu_left.a:active {
+    background: #2d72a4;
+    color: white;
+} */
+
+/*#kleft_nav.cbp-spmenu-s2.cbp-spmenu.cbp-spmenu-bkg.cbp-spmenu-vertical2.cbp-spmenu-left2.cbp-spmenu-open div.containermenu div.containermenuintern ul li.side_menu_left a span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: inherit;
+    position: relative;
+    z-index: 2;
+    font-family: inherit !important;
+    white-space: normal;
+	font-size: 1.4vh;
+}*/
+a.multi, a.submenuside {
+    color: #fff !important;
+}
+
+a.multi span {
+    font-size: 1.5vh !important;
+}
+
+a.submenuside span {
+    font-size: 1.3vh !important;
+}
+
+a.submenusidesub {
+    font-size: 1.2vh !important;
+}
+
+ins.sfm-sm-indicator {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    color: inherit;
+    position: absolute;
+    width: 6.6vh;
+    line-height: 4.5vh;
+    background: 0 0;
+}
+
+.sfm-sm-indicator i {
+    display: block;
+}
+
+#kleft_nav .icon-angle-right, #kleft_nav .icon-angle-down {
+    font-size: 3vh;
+    vertical-align: middle;
+    display: inline-block;
+    color: inherit;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin: -.7em 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+#kleft_nav ul li.side_menu_left {
+    border-bottom: 1px solid #ffffff1a;
+}
+
+#kleft_nav li a.submenuside {
+    padding-left: 3vh;
+}
+
+#kleft_nav li a.submenusidesub {
+    text-transform: none;
+    padding-left: 7.5vh;
+    padding-top: 0.4vh;
+    padding-bottom: 0.4vh;
+}
+
+/* #kleft_nav li a.submenusidesub:hover {
+    background-color: transparent;
+    color: #76bbef;
+} */
+
+html body.cbp-spmenu-push nav#kleft_nav.cbp-spmenu-s2.cbp-spmenu.cbp-spmenu-bkg.cbp-spmenu-vertical2.cbp-spmenu-left2.cbp-spmenu-open div.containermenu div.containermenuintern ul li.side_menu_left ul.submenu {
+    display: none;
+}
+
+/* Transitions */
+.cbp-spmenu,
+.cbp-spmenu-push {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.cbp-spmenu2,
+.cbp-spmenu-push {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/*
+#showRight2.active:before {
+  content: "\2605";
+  color:white;
+  text-shadow: text-shadow: 1px 1px white, -1px -1px #444;
+}
+#showRight2.std2:before{
+  content: "\2605";
+  color:#414141;
+  text-shadow: text-shadow: 1px 1px white, -1px -1px #444;
+}
+#showRight3.std3:before{
+  content: "\2605";
+  color:#414141;
+  text-shadow: text-shadow: 1px 1px white, -1px -1px #444;
+}
+#showRight.active:before {
+  content: "\2605";
+  color:white;
+  text-shadow: text-shadow: 1px 1px white, -1px -1px #444;
+}
+
+#showRight.std:before{
+  content: "\2605";
+  color:#414141;
+  text-shadow: text-shadow: 1px 1px white, -1px -1px #444;
+}
+*/
+html body.cbp-spmenu-push button#showRight2.std.disabled {
+    pointer-events: none;
+    opacity: .0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+html body.cbp-spmenu-push button#showRight.std.disabled {
+    pointer-events: none;
+    opacity: .0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/*menu droite efft */
+html body.cbp-spmenu-push div.menutask {
+    position: absolute;
+    right: 0vh;
+    top: 70%;
+    z-index: 99999;
+}
+
+.cbp-spmenu-push .menutask .menu-toggle-button {
+    background: #41e5c0 !important;
+    border-radius: 0%;
+    width: 80px;
+    height: 80px;
+    margin-left: -40px;
+    margin-top: -40px;
+    color: #fff;
+    border: none;
+    outline: none;
+    position: relative;
+}
+
+html body.cbp-spmenu-push div.menutask ul.menu-items li.menu-item button.menu-item-button {
+    background: #3cb197;
+    border-radius: 50%;
+}
+
+html body.cbp-spmenu-push div.menutask ul.menu-items li.menu-item div.menu-item-bounce {
+    background: #3cb197;
+}
+
+.menu-toggle-button {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu-toggle-icon {
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.menu-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.menu-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+}
+
+.menu-item-bounce {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menutask .menu-items .menu-item .menu-item-button {
+    width: 60px;
+    height: 60px;
+    margin-left: -30px;
+    margin-top: -30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #9DE3D3;
+}
+
+.menu-item-button:hover {
+    color: #fff;
+}
+
+/* Example media queries */
+@media screen and (max-width: 55.1875em) {
+    .cbp-spmenu-horizontal {
+        font-size: 75%;
+        height: 110px;
+    }
+
+    .cbp-spmenu-top {
+        top: -110px;
+    }
+
+    .cbp-spmenu-bottom {
+        bottom: -110px;
+    }
+}
+
+@media screen and (max-height: 26.375em) {
+    .cbp-spmenu-vertical {
+        font-size: 90%;
+        width: 190px;
+    }
+
+    .cbp-spmenu-left,
+    .cbp-spmenu-push-toleft {
+        left: -190px;
+    }
+
+    .cbp-spmenu-right {
+        right: -190px;
+    }
+
+    .cbp-spmenu-push-toright {
+        left: 190px;
+    }
+}

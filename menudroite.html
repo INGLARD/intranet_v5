@@ -1,0 +1,347 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Animated Round Popup Menu Demo</title>
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+<link href="../assets/css/icons/interview/interview.css" rel="stylesheet" type="text/css" />
+<link href="../assets/css/icons/iconic/iconic.css" rel="stylesheet" type="text/css" />
+<link href="../assets/css/icons/linecons/linecons.css" rel="stylesheet" type="text/css" />
+<link href="../assets/css/icons/elusive/elusive.css" rel="stylesheet" type="text/css" />
+<link href="../assets/css/icons/typicons/typicons.css" rel="stylesheet" type="text/css" />
+<link href="../assets/css/icons/fontawesome/fontawesome.css" rel="stylesheet" type="text/css" />
+<link href="../assets/css/icons/flaticon/flaticon.css" rel="stylesheet" type="text/css" />
+<link href="../assets/css/icons/fruits_vegetables/flaticon.css" rel="stylesheet" type="text/css" />
+<link href="../assets/css/icons/management/flaticon.css" rel="stylesheet" type="text/css" />
+<link href="../assets/css/icons/drinkset/flaticon.css" rel="stylesheet" type="text/css" />
+<link href="../assets/css/icons/shopping/flaticon.css" rel="stylesheet" type="text/css" />
+<link href="../assets/css/icons/books/flaticon.css" rel="stylesheet" type="text/css" />
+<link href="../assets/css/icons/collectionicons/flaticon.css" rel="stylesheet" type="text/css" />
+<style>
+body {
+  padding: 0;
+  margin: 0;
+  background: #eeeeee;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+a { color: inherit; }
+.menu-open-button i.fa.fa-plus{
+font-size: 4vh;
+margin-top: 0.3vh;
+}
+.fa.fa-star,.fa.fa-check-circle{
+font-size: 3vh;
+}
+.menu-item, .menu-open-button {
+background: #41e5c0;
+border-radius: 0%;
+width: 4.5vh;
+height: 4.5vh;
+margin-left: -40px;
+position: absolute;
+color: #FFFFFF;
+text-align: center;
+-webkit-transform: translate3d(0, 0, 0);
+transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform ease-out 200ms;
+  transition: -webkit-transform ease-out 200ms;
+  transition: transform ease-out 200ms;
+  transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
+}
+
+.menu-open { display: none; }
+
+.lines {
+  width: 25px;
+  height: 3px;
+  background: #596778;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -12.5px;
+  margin-top: -1.5px;
+  -webkit-transition: -webkit-transform 200ms;
+  transition: -webkit-transform 200ms;
+  transition: transform 200ms;
+  transition: transform 200ms, -webkit-transform 200ms;
+}
+
+
+
+.menu {
+margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  right: 6%;
+  margin-left: -25px;
+  margin-top: -25px;
+}
+
+.menu-item:hover {
+  background: #EEEEEE;
+  color: #3290B1;
+}
+
+.menu-open-button {
+  z-index: 2;
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+  transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+  cursor: pointer;
+  box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.14);
+}
+
+.menu-open-button:hover {
+  -webkit-transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+  transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+}
+
+.menu-open:checked + .menu-open-button {
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  -webkit-transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+  transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+}
+
+.menu-open:checked ~ .menu-item {
+  -webkit-transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
+  transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
+}
+
+.menu-open:checked ~ .menu-item:nth-child(3) {
+  transition-duration: 180ms;
+  -webkit-transition-duration: 180ms;
+  -webkit-transform: translate3d(0.08361px, -104.99997px, 0);
+transform: translate3d(0.6vh, -4vh, 0);
+}
+
+.menu-open:checked ~ .menu-item:nth-child(4) {
+  transition-duration: 280ms;
+  -webkit-transition-duration: 280ms;
+  -webkit-transform: translate3d(90.9466px, -52.47586px, 0);
+  transform: translate3d(-4vh,0.9vh, 0);
+}
+
+
+
+
+
+.item-1 {
+  background-color: #708aa84d;
+  box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.14);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+  border-radius:0%;
+  width:3vh;
+	height:3vh;
+}
+
+.item-1:hover {
+  color: #669AE1;
+  text-shadow: none;
+}
+
+.item-2 {
+  background-color: #708aa84d;
+  box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.14);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+    border-radius:0%;
+	width:3vh;
+	height:3vh;
+}
+
+.item-2:hover {
+  color: #669AE1;
+  text-shadow: none;
+}
+
+.citem-3it {
+  margin: 24px 20px 120px 0;
+  text-align: right;
+  color: #EEEEEE;
+}
+
+.citem-3it a {
+  padding: 8px 0;
+  color: #C49CDE;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.citem-3it a:hover { text-decoration: underline; }
+
+
+
+
+
+.cbp-spmenu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+#cbp-spmenu-s2.cbp-spmenu.cbp-spmenu-vertical.cbp-spmenu-right {
+	right: -57.64vh;
+}
+#cbp-spmenu-s2.cbp-spmenu.cbp-spmenu-vertical.cbp-spmenu-right.cbp-spmenu-open {
+    right: 5%;
+}
+.cbp-spmenu-left2.cbp-spmenu-open {
+	left: 0px;
+}
+
+
+
+
+.cbp-spmenu {
+    background: rgba(0,192,239,0.28);
+    background: rgba(0, 192, 239, 0.75);
+    position: fixed;
+}
+.cbp-spmenu2 {
+    background: rgba(0,192,239,0.28);
+    background: rgba(10, 138, 20, 0.8);
+    position: fixed;
+}
+.cbp-spmenu-vertical {
+    width: 240px;
+    height: 20%;
+    top: 17%;
+    z-index: 1000;
+    border: 1px solid #fff;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.64);
+    box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.64);
+}
+.cbp-spmenu-push #cbp-spmenu-s2.cbp-spmenu-right, {
+	right: -57.64vh;
+}
+.cbp-spmenu-push #cbp-spmenu-s2.cbp-spmenu-right.cbp-spmenu-open, {
+    right: 5%;
+}
+
+
+#cbp-spmenu-s3.cbp-spmenu2.cbp-spmenu-right{
+right: -57.64vh;
+}
+html body nav#cbp-spmenu-s3.cbp-spmenu2.cbp-spmenu-vertical.cbp-spmenu-right.cbp-spmenu-open{
+right: 5%;
+}
+#showRight.btn.sub.active{
+ right: 10%;
+}
+</style>
+</head>
+
+<body>
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+	<h3>taches</h3>	
+	
+</nav> 
+
+
+<nav class="cbp-spmenu2 cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s3">
+	<h3>Favoris</h3>
+	
+</nav>
+<nav class="menu">
+  <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+  <label class="menu-open-button" for="menu-open">  <i class="fa fa-plus"></i></label>
+  
+  <a href="#" class="menu-item item-1 std" id="showRight"> <i class="fa fa-check-circle"></i> </a>
+  <a href="#" class="menu-item item-2 std" id="showRight2"> <i class="fa fa-star"></i> </a> 
+
+</nav>
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+ //side menu toogle
+var menuRight = document.getElementById( 'cbp-spmenu-s2' ),body = document.body;
+   
+showRight.onclick = function() {
+classie.toggle( this, 'active' );				
+classie.toggle( this, 'std' );
+classie.toggle( menuRight, 'cbp-spmenu-open' );
+disableOther( 'showRight' );
+ };
+function disableOther( button ) {
+if( button !== 'showRight' ) {
+classie.toggle( showRight, 'disabled' );
+ }
+}
+
+
+var menuRight2 = document.getElementById( 'cbp-spmenu-s3' ),body = document.body;
+   
+showRight2.onclick = function() {
+classie.toggle( this, 'active' );				
+classie.toggle( this, 'std' );
+classie.toggle( menuRight2, 'cbp-spmenu-open' );
+disableOther( 'showRight2' );
+ };
+function disableOther( button ) {
+if( button !== 'showRight2' ) {
+classie.toggle( showRight2, 'disabled' );
+ }
+}
+
+$("#menu-open").click(function() {
+	   if(!this.checked){
+	  // alert('ee');
+	  $("#cbp-spmenu-s2").hide();
+	   $("#cbp-spmenu-s3").hide();
+	   }
+	   else{
+	  // alert('ee');
+	  $("#cbp-spmenu-s2").show();
+	   $("#cbp-spmenu-s3").show();
+	   }
+
+		if ($('#cbp-spmenu-s2').hasClass('cbp-spmenu-open')){
+		$('#cbp-spmenu-s2').removeClass( "cbp-spmenu-open" );
+
+		}
+		if ($('#cbp-spmenu-s3').hasClass('cbp-spmenu-open')){
+		$('#cbp-spmenu-s3').removeClass( "cbp-spmenu-open" );
+
+		}
+
+});
+
+$("#showRight").click(function() {
+if ($('#cbp-spmenu-s3').hasClass('cbp-spmenu-open')){
+		$('#cbp-spmenu-s3').removeClass( "cbp-spmenu-open" );
+		}
+});
+
+$("#showRight2").click(function() {
+if ($('#cbp-spmenu-s2').hasClass('cbp-spmenu-open')){
+		$('#cbp-spmenu-s2').removeClass( "cbp-spmenu-open" );
+		}
+});
+// Quand on clique sur le menu niv 2
+$(".submenuside").click(function() {
+	
+
+
+
+});
+</script>
+

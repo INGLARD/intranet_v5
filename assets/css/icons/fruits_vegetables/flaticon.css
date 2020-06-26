@@ -1,0 +1,81 @@
+
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 05/01/2018 08:48
+  	*/
+
+@font-face {
+  font-family: "veggi";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#veggi") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "veggi";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="veggi-"]:before, [class*=" veggi-"]:before,
+[class^="veggi-"]:after, [class*=" veggi-"]:after {   
+  font-family: veggi;
+        font-size: 10px;
+font-style: normal;
+margin-left: 2px;
+}
+.veggi-001-tomato:before { content: "\f100"; }
+.veggi-002-lettuce:before { content: "\f101"; }
+.veggi-003-corn:before { content: "\f102"; }
+.veggi-004-pear:before { content: "\f103"; }
+.veggi-005-mangosteen:before { content: "\f104"; }
+.veggi-006-eggplant:before { content: "\f105"; }
+.veggi-007-ginger:before { content: "\f106"; }
+.veggi-008-pumpkin:before { content: "\f107"; }
+.veggi-009-mango:before { content: "\f108"; }
+.veggi-010-potatoes:before { content: "\f109"; }
+.veggi-011-coconut:before { content: "\f10a"; }
+.veggi-012-carambola:before { content: "\f10b"; }
+.veggi-013-horseradish:before { content: "\f10c"; }
+.veggi-014-pitaya:before { content: "\f10d"; }
+.veggi-015-pomegranate:before { content: "\f10e"; }
+.veggi-016-melon:before { content: "\f10f"; }
+.veggi-017-peas:before { content: "\f110"; }
+.veggi-018-cucumber:before { content: "\f111"; }
+.veggi-019-kiwi:before { content: "\f112"; }
+.veggi-020-cauliflower:before { content: "\f113"; }
+.veggi-021-asparagus:before { content: "\f114"; }
+.veggi-022-peanut:before { content: "\f115"; }
+.veggi-023-pepper:before { content: "\f116"; }
+.veggi-024-strawberry:before { content: "\f117"; }
+.veggi-025-grapes:before { content: "\f118"; }
+.veggi-026-apple:before { content: "\f119"; }
+.veggi-027-avocado:before { content: "\f11a"; }
+.veggi-028-radishes:before { content: "\f11b"; }
+.veggi-029-parsley:before { content: "\f11c"; }
+.veggi-030-cabbage-1:before { content: "\f11d"; }
+.veggi-031-spring-onion:before { content: "\f11e"; }
+.veggi-032-cherry:before { content: "\f11f"; }
+.veggi-033-raspberry:before { content: "\f120"; }
+.veggi-034-blueberries:before { content: "\f121"; }
+.veggi-035-olives:before { content: "\f122"; }
+.veggi-036-onion:before { content: "\f123"; }
+.veggi-037-mushroom:before { content: "\f124"; }
+.veggi-038-artichoke:before { content: "\f125"; }
+.veggi-039-carrot:before { content: "\f126"; }
+.veggi-040-papaya:before { content: "\f127"; }
+.veggi-041-banana:before { content: "\f128"; }
+.veggi-042-cabbage:before { content: "\f129"; }
+.veggi-043-lemon:before { content: "\f12a"; }
+.veggi-044-courgette:before { content: "\f12b"; }
+.veggi-045-orange:before { content: "\f12c"; }
+.veggi-046-peach:before { content: "\f12d"; }
+.veggi-047-chili:before { content: "\f12e"; }
+.veggi-048-pineapple:before { content: "\f12f"; }
+.veggi-049-watermelon:before { content: "\f130"; }
+.veggi-050-garlic:before { content: "\f131"; }

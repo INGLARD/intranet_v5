@@ -1,0 +1,44 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 17/10/2018 16:55
+  	*/
+
+@font-face {
+  font-family: "favorite";
+  src: url("./favorite.eot");
+  src: url("./favorite.eot?#iefix") format("embedded-opentype"),
+       url("./favorite.woff") format("woff"),
+       url("./favorite.ttf") format("truetype"),
+       url("./favorite.svg#favorite") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "favorite";
+    src: url("./favorite.svg#favorite") format("svg");
+  }
+}
+
+[class^="favorite-"]:before, [class*=" favorite-"]:before,
+[class^="favorite-"]:after, [class*=" favorite-"]:after {   
+  font-family: favorite;
+        /*font-size: 3vh;*/
+font-style: normal;
+
+}
+
+.favorite-add-heart:before { content: "\f100"; }
+.favorite-add-star:before { content: "\f101"; }
+.favorite-add-to-favorites:before { content: "\f102"; }
+.favorite-star-plus:before { content: "\f103"; }
+.favorite-add-bookmark:before { content: "\f104"; }
+.favorite-add-bookmarks:before { content: "\f105"; }
+.favorite-star:before { content: "\f106"; }
+.favorite-bookmark:before { content: "\f107"; }
+.favorite-heart:before { content: "\f108"; }
+.favorite-bookmark-1:before { content: "\f109"; }
+.favorite-add-to-favorite:before { content: "\f10a"; }
+.favorite-star-1:before { content: "\f10b"; }
+.favorite-bookmark-2:before { content: "\f10c"; }

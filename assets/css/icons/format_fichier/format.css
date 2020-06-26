@@ -1,0 +1,38 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 16/10/2018 15:45
+  	*/
+
+@font-face {
+  font-family: "format";
+  src: url("./format.eot");
+  src: url("./format.eot?#iefix") format("embedded-opentype"),
+       url("./format.woff") format("woff"),
+       url("./format.ttf") format("truetype"),
+       url("./format.svg#format") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "format";
+    src: url("./format.svg#format") format("svg");
+  }
+}
+
+[class^="format-"]:before, [class*=" format-"]:before,
+[class^="format-"]:after, [class*=" format-"]:after {   
+  font-family: format;
+ font-size: 2.5vh;
+font-style: normal;
+/*margin-left: 2.1vh;*/
+
+}
+
+.format-pdf-file-format-symbol:before { content: "\f100"; }
+.format-folder:before { content: "\f101"; }
+.format-doc-file-format:before { content: "\f102"; }
+.format-xlsx-file-format-extension:before { content: "\f103"; }
+.format-frame-landscape:before { content: "\f104"; }
+.format-zip-file-format:before { content: "\f105"; }

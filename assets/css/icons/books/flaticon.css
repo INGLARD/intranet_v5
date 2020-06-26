@@ -1,0 +1,82 @@
+
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/08/2018 08:51
+  	*/
+
+@font-face {
+  font-family: "book";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#book") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "book";
+    src: url("./Flaticon.svg#book") format("svg");
+  }
+}
+
+
+[class^="book-"]:before, [class*=" book-"]:before,
+[class^="book-"]:after, [class*=" book-"]:after {   
+  font-family: book;
+        font-size: 10px;
+font-style: normal;
+margin-left: 2px;
+}
+.flaticon-001-balance:before { content: "\f100"; }
+.flaticon-002-auction:before { content: "\f101"; }
+.flaticon-003-rights:before { content: "\f102"; }
+.flaticon-004-right-to-objection:before { content: "\f103"; }
+.flaticon-005-right-to-objection-1:before { content: "\f104"; }
+.book-006-data:before { content: "\f105"; }
+.book-007-data-storage:before { content: "\f106"; }
+.book-008-id-card:before { content: "\f107"; }
+.book-009-address:before { content: "\f108"; }
+.book-010-income:before { content: "\f109"; }
+.book-011-medical-record:before { content: "\f10a"; }
+.book-012-padlock:before { content: "\f10b"; }
+.book-013-detective:before { content: "\f10c"; }
+.book-014-protection:before { content: "\f10d"; }
+.book-015-cookie:before { content: "\f10e"; }
+.book-016-text-file:before { content: "\f10f"; }
+.book-017-data-processing:before { content: "\f110"; }
+.book-018-alert:before { content: "\f111"; }
+.book-019-right-to-access:before { content: "\f112"; }
+.book-020-eraser:before { content: "\f113"; }
+.book-021-rectification:before { content: "\f114"; }
+.book-022-transparency:before { content: "\f115"; }
+.book-023-information:before { content: "\f116"; }
+.book-024-information-1:before { content: "\f117"; }
+.book-025-pendrive:before { content: "\f118"; }
+.book-026-right-to-objection-2:before { content: "\f119"; }
+.book-027-notification:before { content: "\f11a"; }
+.book-028-profiling:before { content: "\f11b"; }
+.book-029-child-consent:before { content: "\f11c"; }
+.book-030-delete:before { content: "\f11d"; }
+.book-031-decision-making:before { content: "\f11e"; }
+.book-032-data-transfer:before { content: "\f11f"; }
+.book-033-cooperation:before { content: "\f120"; }
+.book-034-data-protection:before { content: "\f121"; }
+.book-035-code-of-conduct:before { content: "\f122"; }
+.book-036-keylock:before { content: "\f123"; }
+.book-037-eu:before { content: "\f124"; }
+.book-038-communications:before { content: "\f125"; }
+.book-039-plain:before { content: "\f126"; }
+.book-040-encryption:before { content: "\f127"; }
+.book-041-target:before { content: "\f128"; }
+.book-042-target-1:before { content: "\f129"; }
+.book-043-consent:before { content: "\f12a"; }
+.book-044-document:before { content: "\f12b"; }
+.book-045-clock:before { content: "\f12c"; }
+.book-046-documentation:before { content: "\f12d"; }
+.book-047-chip:before { content: "\f12e"; }
+.book-048-complaint:before { content: "\f12f"; }
+.book-049-penalty:before { content: "\f130"; }
+.book-050-fingerprint:before { content: "\f131"; }

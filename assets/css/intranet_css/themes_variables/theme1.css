@@ -1,0 +1,23 @@
+#footer {
+    background-color:#00b7ff;
+}
+
+
+/* COLOR VARS */
+:root {
+  --boul-text: #00b7ff;
+  --qhse-text: #00b7ff;
+  --plan-text: #00b7ff;
+  --documents-text: #00b7ff;
+  --admin-text: #00b7ff;
+  --compta-text: #00b7ff;
+  --social-text: #00b7ff;
+  --fin-text: #00b7ff;
+  --relation_sociale-text: #00b7ff;
+  --entretien_pro-text: #00b7ff;
+  --entretien_pro_ph-text: #00b7ff;
+  --agenda-text: #00b7ff;
+  --formation-text: #00b7ff;
+  --mag-text: #00b7ff;
+  --cmptclt-text: #00b7ff;
+}

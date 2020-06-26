@@ -1,0 +1,42 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 16/01/2019 15:03
+  	*/
+
+@font-face {
+  font-family: "medical";
+  src: url("./medical.eot");
+  src: url("./medical.eot?#iefix") format("embedded-opentype"),
+       url("./medical.woff2") format("woff2"),
+       url("./medical.woff") format("woff"),
+       url("./medical.ttf") format("truetype"),
+       url("./medical.svg#medical") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "medical";
+    src: url("./medical.svg#medical") format("svg");
+  }
+}
+
+[class^="medical-"]:before, [class*=" medical-"]:before,
+[class^="medical-"]:after, [class*=" medical-"]:after {
+  font-family: medical;
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.medical-doctor:before { content: "\f100"; }
+.medical-stethoscope:before { content: "\f101"; }
+.medical-medical-stethoscope-variant:before { content: "\f102"; }
+.medical-medicine-briefcase:before { content: "\f103"; }
+.medical-clock-circular-outline:before { content: "\f104"; }
+.medical-privacy:before { content: "\f105"; }
+.medical-fire:before { content: "\f106"; }
+.medical-login:before { content: "\f107"; }
+.medical-shield:before { content: "\f108"; }
+.medical-key:before { content: "\f109"; }

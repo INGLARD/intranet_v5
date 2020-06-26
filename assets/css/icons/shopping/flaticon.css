@@ -1,0 +1,81 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 17/08/2018 08:33
+  	*/
+
+@font-face {
+  font-family: "shopping";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#shopping") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#shopping") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "shopping";
+    src: url("./Flaticon.svg#shopping") format("svg");
+  }
+}
+
+[class^="shopping-"]:before, [class*=" shopping-"]:before,
+[class^="shopping-"]:after, [class*=" shopping-"]:after {   
+  font-family: shopping;
+        font-size: 10px;
+font-style: normal;
+margin-left: 5px;
+}
+
+.shopping-001-shopping-cart:before { content: "\f100"; }
+.shopping-002-shopping-cart-1:before { content: "\f101"; }
+.shopping-003-shopping-cart-2:before { content: "\f102"; }
+.shopping-004-shopping-cart-3:before { content: "\f103"; }
+.shopping-005-shopping-cart-4:before { content: "\f104"; }
+.shopping-006-credit-card:before { content: "\f105"; }
+.shopping-007-online-shop:before { content: "\f106"; }
+.shopping-008-online-shop-1:before { content: "\f107"; }
+.shopping-009-wallet:before { content: "\f108"; }
+.shopping-010-megaphone:before { content: "\f109"; }
+.shopping-011-like:before { content: "\f10a"; }
+.shopping-012-coupon:before { content: "\f10b"; }
+.shopping-013-pin:before { content: "\f10c"; }
+.shopping-014-delivery-truck:before { content: "\f10d"; }
+.shopping-015-shield:before { content: "\f10e"; }
+.shopping-016-point-of-service:before { content: "\f10f"; }
+.shopping-017-online-shop-2:before { content: "\f110"; }
+.shopping-018-money:before { content: "\f111"; }
+.shopping-019-invoice:before { content: "\f112"; }
+.shopping-020-package:before { content: "\f113"; }
+.shopping-021-calculator:before { content: "\f114"; }
+.shopping-022-barcode:before { content: "\f115"; }
+.shopping-023-store:before { content: "\f116"; }
+.shopping-024-search:before { content: "\f117"; }
+.shopping-025-online-shop-3:before { content: "\f118"; }
+.shopping-026-shopping-bag:before { content: "\f119"; }
+.shopping-027-gift:before { content: "\f11a"; }
+.shopping-028-idea:before { content: "\f11b"; }
+.shopping-029-chat:before { content: "\f11c"; }
+.shopping-030-planet-earth:before { content: "\f11d"; }
+.shopping-031-buy:before { content: "\f11e"; }
+.shopping-032-qr-code:before { content: "\f11f"; }
+.shopping-033-telephone:before { content: "\f120"; }
+.shopping-034-call-center:before { content: "\f121"; }
+.shopping-035-delivery-man:before { content: "\f122"; }
+.shopping-036-payment-method:before { content: "\f123"; }
+.shopping-037-credit-card-1:before { content: "\f124"; }
+.shopping-038-list:before { content: "\f125"; }
+.shopping-039-underwear:before { content: "\f126"; }
+.shopping-040-discount:before { content: "\f127"; }
+.shopping-041-piggy-bank:before { content: "\f128"; }
+.shopping-042-dress:before { content: "\f129"; }
+.shopping-043-high-heels:before { content: "\f12a"; }
+.shopping-044-sneakers:before { content: "\f12b"; }
+.shopping-045-shirt:before { content: "\f12c"; }
+.shopping-046-stopwatch:before { content: "\f12d"; }
+.shopping-047-cash-register:before { content: "\f12e"; }
+.shopping-048-online-shop-4:before { content: "\f12f"; }
+.shopping-049-trolley:before { content: "\f130"; }
+.shopping-050-medal:before { content: "\f131"; }
