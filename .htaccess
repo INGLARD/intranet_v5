@@ -1,1 +1,2 @@
+RewriteEngine on
 RewriteRule (.*) https://intranet.blachere.fr/intranet_v5 [R,L]
